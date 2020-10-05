@@ -1,0 +1,15 @@
+idea:
+create a script which can read a data file (excel) which has the format of input hours
+hours | date | payout status
+
+---
+The script must be running in the background continuesly or similar. (perhaps each bootup on a dedicated pc/container/etc.)
+or a daemon process or smth.
+
+and then check if the date is the final date of the month (in a week)
+
+It then sums up the amount of hours in the respective month.
+
+Afterwards, a mail is sent to XXX with a template mail stating the amount of hours in the period..
+
+
